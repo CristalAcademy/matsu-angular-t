@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { AppMaterialModule } from './../shared/app-material/app-material.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -14,7 +15,8 @@ import { CursosComponent } from './cursos/cursos.component';
   imports: [
     CommonModule,
     CursosRoutingModule,
-    AppMaterialModule
+    AppMaterialModule,
+    SharedModule
   ]
 })
 

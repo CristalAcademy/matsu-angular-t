@@ -1,0 +1,14 @@
+[
+  {
+  "_id":"1", "name":"Spring", "category": "Backend"
+  },
+  {
+    "_id":"2", "name":"Angular", "category": "Frontend"
+  },
+  {
+    "_id":"3", "name":"Vue", "category": "Frontend"
+  },
+  {
+    "_id":"4", "name":"Mongo", "category": "Database"
+  }
+]
